@@ -1,0 +1,13 @@
+getwd()
+a <- read.table("SNPs_22102014_115140.raw")
+a
+head(a)
+a <- read.table("SNPs_22102014_115140.raw", header = T)
+head(a)
+dim(a)
+length(which(a == 0))
+length(which(a == 0)) / dim(a)[1]*dim(a)[2]
+838*26
+length(which(a == 0)) / (dim(a)[1]*dim(a)[2])
+length(which(a == 1)) / (dim(a)[1]*dim(a)[2])
+length(which(a == 2)) / (dim(a)[1]*dim(a)[2])

@@ -1,0 +1,19 @@
+Package: CHProject
+Title: Comparison of heritability estimation through linear regression
+Version: 0.1
+Authors@R: "Julien Duvanel <duvanel@stanford.edu> [aut, cre]"
+Description: Heritability estimation through linear regression
+Depends:
+    R (>= 3.0.1),
+    ggplot2,
+    doMC
+License: GPL (>= 3)
+LazyData: true
+Imports:
+    grid,
+    gridBase,
+    gridExtra,
+    dplyr,
+    foreach,
+    zoo,
+    colorspace
